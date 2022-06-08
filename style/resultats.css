@@ -13,6 +13,71 @@ body{
     height: 100%;
 }
 
+#titre {
+    text-align: center;
+    font-size: 5.5em;
+    padding: 10px;
+    color: #000000;
+    font-family: "Medula one", serif;
+    text-shadow: 2px 2px 2px #012328
+}
+
+#cov,#sts,#int {
+    text-align: center;
+    font-size: 4.5em;
+    padding: 2px;
+    color: #000000;
+    font-family:"Medula One", serif;
+    text-shadow: 2px 2px 2px #012328
+}
+
+#presentation-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    font-family: "Medula One", serif;
+    margin: 1em;
+}
+
+#tqt2{
+    text-align: justify;
+    font-size: 1.5em;
+    padding: 13px;
+    color: #000000;
+    font-family: "Helvetica", serif;
+    text-shadow: 1px 1px 1px #012328
+}
+
+.lol{
+  margin:auto;
+  display: flex;
+}
+
+#para{
+      text-align: justify;
+      font-size: 1.3em;
+      padding: 2px;
+      color: #000000;
+      font-family:"Helvetica", serif;
+      text-shadow: 1px 1px 1px #012328
+  }
+
+  #para2{
+        text-align: center;
+        font-size: 1.3em;
+        padding: 2px;
+        color: #000000;
+        font-family:"Helvetica", serif;
+        text-shadow: 1px 1px 1px #012328
+    }
+
+  .ytb{
+    margin:auto;
+    display: flex;
+    margin-bottom: 40px;
+  }
 
 /* medula-one-regular - latin */
 @font-face {
@@ -81,7 +146,7 @@ body {
 
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: rgba(2, 65, 77, .5);
     min-width: 160px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -118,6 +183,34 @@ body {
         float: right;
         display: block;
     }
+
+}
+
+@media screen and (max-width: 1360px) {
+
+      #presentation-container {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows:  repeat(2, 1fr);
+          grid-column-gap: 5px;
+          grid-row-gap: 10px;
+          font-family: "Medula One", serif;
+          margin: 1em;
+      }
+      #para{
+            text-align: justify;
+            font-size: 1.2em;
+            color: #000000;
+            padding: 0px;
+            margin: 0px;
+            font-family:"Helvetica", serif;
+            text-shadow: 1px 1px 1px #012328
+        }
+        .lol{
+          padding: 0px;
+          width: 400px;
+          height: 200px;
+        }
 }
 
 @media screen and (max-width: 680px) {
