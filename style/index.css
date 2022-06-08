@@ -3,7 +3,6 @@ html {
 }
 
 body {
-
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -193,7 +192,7 @@ body {
     }
 }
 
-#carouselExampleDark {
+#carousel {
     margin: 50px;
     border : 2px solid rgba(2, 65, 77);
 }

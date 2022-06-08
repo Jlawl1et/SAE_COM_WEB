@@ -3,8 +3,11 @@ html {
 }
 
 body{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background: url(https://img.freepik.com/free-vector/copy-space-wavy-white-background-layers_23-2148845469.jpg) no-repeat fixed center center;
+    background: url("../assets/images/cool-background.png") no-repeat center center fixed;
     position: relative;
     width: 100%;
     height: 100%;
