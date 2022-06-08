@@ -55,7 +55,7 @@ body{
   display: flex;
 }
 
-#para{
+.para{
       text-align: justify;
       font-size: 1.3em;
       padding: 2px;
@@ -64,20 +64,20 @@ body{
       text-shadow: 1px 1px 1px #012328
   }
 
-  #para2{
+.para2{
         text-align: center;
         font-size: 1.3em;
         padding: 2px;
         color: #000000;
         font-family:"Helvetica", serif;
         text-shadow: 1px 1px 1px #012328
-    }
+}
 
-  .ytb{
+.ytb{
     margin:auto;
     display: flex;
     margin-bottom: 40px;
-  }
+}
 
 /* medula-one-regular - latin */
 @font-face {
