@@ -43,7 +43,7 @@ body{
 
 #tqt2{
     text-align: justify;
-    font-size: 1.5em;
+    font-size: .8em;
     padding: 13px;
     color: #000000;
     font-family: "Helvetica", serif;
@@ -53,6 +53,8 @@ body{
 .lol{
   margin:auto;
   display: flex;
+    border-radius: 2px;
+    border: black solid 2px;
 }
 
 .para{
