@@ -1,4 +1,4 @@
 function openResponsiveNavBar(){
-    $('#Topnav').toggleClass("responsive");
+    document.getElementById('Topnav').classList.toggle("responsive");
 }
 
