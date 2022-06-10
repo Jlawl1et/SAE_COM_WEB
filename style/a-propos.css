@@ -149,6 +149,13 @@ body {
     margin: 1em;
 }
 
+#presentation-container img {
+    width: 100%;
+    max-width: 400px;
+    min-width: 160px;
+    height: auto;
+}
+
 #presentation-container2 {
     font-size: 2.3em;
     display: grid;

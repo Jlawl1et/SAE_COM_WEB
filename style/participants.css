@@ -169,9 +169,8 @@ body {
 }
 
 .ytb{
-    margin:auto;
     display: flex;
-    margin-bottom: 40px;
+    margin: auto auto 40px;
 }
 
 #presentation-container3 {
