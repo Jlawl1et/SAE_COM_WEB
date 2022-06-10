@@ -186,34 +186,9 @@ body {
         float: right;
         display: block;
     }
-
-}
-
-@media screen and (max-width: 1360px) {
-
-      #presentation-container {
-          display: grid;
-          grid-template-columns: 1fr;
-          grid-template-rows:  repeat(2, 1fr);
-          grid-column-gap: 5px;
-          grid-row-gap: 10px;
-          font-family: "Medula One", serif;
-          margin: 1em;
-      }
-      #para{
-            text-align: justify;
-            font-size: 1.2em;
-            color: #000000;
-            padding: 0px;
-            margin: 0px;
-            font-family:"Helvetica", serif;
-            text-shadow: 1px 1px 1px #012328
-        }
-        .lol{
-          padding: 0px;
-          width: 400px;
-          height: 200px;
-        }
+    .topnav a.icon:hover {
+        cursor: pointer;
+    }
 }
 
 @media screen and (max-width: 680px) {
