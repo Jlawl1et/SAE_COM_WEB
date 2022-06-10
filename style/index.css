@@ -118,30 +118,7 @@ body {
         float: right;
         display: block;
     }
-    .topnav a.icon:hover {
-        cursor: pointer;
-    }
-}
 
-@media screen and (max-width: 680px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive a.icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-    .topnav.responsive .dropdown {float: none;}
-    .topnav.responsive .dropdown-content {position: relative;}
-    .topnav.responsive .dropdown .dropbtn {
-        display: block;
-        width: 100%;
-        text-align: left;
-    }
 }
 
 #titre {
@@ -173,7 +150,7 @@ body {
 }
 
 #presentation-container img {
-    min-width: 330px;
+    min-width: 350px;
     margin: 0 auto;
     width: 100%;
     max-width: 400px;
