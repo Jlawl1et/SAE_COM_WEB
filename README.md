@@ -1,4 +1,2 @@
 # SAE_COM_WEB
-
-Ceci est un projet dans le cadre du BUT1 informatique, l'objectif était organiser et planifier un concours d'éloquence universitaire.
-Ici se trouve le site vitrine de l'évennement
+Ceci est un projet dans le cadre du BUT1 informatique, l'objectif était d'organiser et planifier un concours d'éloquence universitaire avec le developpement d'un site.
